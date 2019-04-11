@@ -1,0 +1,12 @@
+package model.processor;
+
+/**
+ * 
+ *
+ * @author rhaq
+ * @version 1.00 2009-04-23 Initial submission.
+ */
+public enum PrayerName
+{
+	fajr, dhuhr, asr, maghrib, isha, all, sunrise
+}

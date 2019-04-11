@@ -1,0 +1,81 @@
+package model.processor;
+
+import java.util.Calendar;
+import java.util.Date;
+
+/**
+ * 
+ *
+ * @author rhaq
+ * @version 1.00 2009-04-24 Initial submission.
+ */
+public class DataIslamicFinderFields extends IslamicFinderFields
+{
+	private static final String CHANGE_TIME_VALUE = "16";
+
+	private static final String ONE = "1";
+
+	private static final String ZERO = "0";
+
+	private Calendar calendar;
+
+
+
+	/**
+	 * 
+	 */
+	public DataIslamicFinderFields()
+	{
+		super();
+
+		this.changeTime = CHANGE_TIME_VALUE;
+		this.dayL = ONE;
+		this.dayLight = ONE;
+		this.fajrTwilight = ZERO;
+		this.calendar = Calendar.getInstance();
+	}
+
+
+	/**
+	 * 
+	 * 
+	 * @param d
+	 */
+	public void setRequestedDate(Date d)
+	{
+		calendar.setTime(d);
+	}
+
+
+	/**
+	 * 
+	 * 
+	 * @return
+	 */
+	public int getRequestedMonth()
+	{
+		return calendar.get(Calendar.MONTH)+1;
+	}
+
+
+	/**
+	 * 
+	 * 
+	 * @return
+	 */
+	public int getRequestedYear()
+	{
+		return calendar.get(Calendar.YEAR);
+	}
+
+
+	/**
+	 * 
+	 * 
+	 * @return
+	 */
+	public int getRequestedDay()
+	{
+		return calendar.get(Calendar.DAY_OF_MONTH);
+	}
+}

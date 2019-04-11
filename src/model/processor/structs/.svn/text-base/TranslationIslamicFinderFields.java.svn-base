@@ -1,0 +1,58 @@
+package model.processor;
+
+/**
+ * 
+ *
+ * @author rhaq
+ * @version 1.00 2009-04-24 Initial submission.
+ */
+public class TranslationIslamicFinderFields extends IslamicFinderFields
+{
+	/**
+	 * Retrieves the 
+	 * @return the requestedMonth.
+	 */
+	public String getRequestedMonth()
+	{
+		return requestedMonth;
+	}
+
+	/**
+	 * Sets the requestedMonth to the specified value.
+	 * @param requestedMonth The requestedMonth to set.
+	 */
+	public void setRequestedMonth(String requestedMonth)
+	{
+		this.requestedMonth = requestedMonth;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the requestedYear.
+	 */
+	public String getRequestedYear()
+	{
+		return requestedYear;
+	}
+
+	/**
+	 * Sets the requestedYear to the specified value.
+	 * @param requestedYear The requestedYear to set.
+	 */
+	public void setRequestedYear(String requestedYear)
+	{
+		this.requestedYear = requestedYear;
+	}
+
+	private String requestedMonth;
+	
+	private String requestedYear;
+	
+	/**
+	 * 
+	 */
+	public TranslationIslamicFinderFields()
+	{
+		super();
+	}
+}

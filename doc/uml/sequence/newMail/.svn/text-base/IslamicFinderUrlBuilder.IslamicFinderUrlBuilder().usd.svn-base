@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:SequenceDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="IslamicFinderUrlBuilder.IslamicFinderUrlBuilder()" id="{UMLID=_TW5lUz7KEd6EWdnPM5Ci3g,JavaID=model.processor.target/IslamicFinderUrlBuilder#IslamicFinderUrlBuilder()}" metadata="uml2-1.0" initialized="true" scrolledX="21" scrolledY="630" tag="200" key="323030373036323920536D7350726179657273">
+  <children xsi:type="editmodel:FrameEditModel" name="IslamicFinderUrlBuilder.IslamicFinderUrlBuilder()" size="533,1768" id="{UMLID=_RL7ugD8KEd64PM-y8YrWmg}" type="Interaction">
+    <children xsi:type="editmodel:ActorEditModel" name="Default actor" location="0,25" size="100,1768" id="{UMLID=_RME4cT8KEd64PM-y8YrWmg}" itemName="Default actor">
+      <children xsi:type="editmodel:ActivationEditModel" location="42,90" size="16,1558" sequenceItemContainer="//@children.0/@children.0" length="1558">
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_RMOpcj8KEd64PM-y8YrWmg}" source="//@children.0/@children.0/@children.0" target="//@children.0/@children.1/@children.0" targetEnd="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="IslamicFinderUrlBuilder()" associatedSequenceNumber="1">
+          <children xsi:type="editmodel:SequenceEndEditModel" attachSource="true" userLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="IslamicFinderUrlBuilder()" size="116,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1" size="6,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+      </children>
+    </children>
+    <children xsi:type="editmodel:InstanceEditModel" name="this" foregroundRGB="196,220,196" location="175,25" size="167,1768" id="{UMLID=_RME4dT8KEd64PM-y8YrWmg}" itemName="this" InstanceType="Class">
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.0/@children.0/@sourceConnections.0" location="75,90" size="16,1558" description="_RMOpdz8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.1" length="1558">
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_R8EK8T8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="TranslationIslamicFinderFields()" associatedSequenceNumber="1.1" creation="true">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,32" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="TranslationIslamicFinderFields()" size="177,14" fontInfo="Arial-8-1"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.1" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-1"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,32" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_R9Gswj8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.1" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manual" associatedMethod="setCalculationMethod(String)" associatedSequenceNumber="1.2">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,138" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setCalculationMethod(String)" size="138,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.2" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.1/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_R-AEoz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.2" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manual" associatedMethod="setChangeTime(String)" associatedSequenceNumber="1.3">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,198" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setChangeTime(String)" size="110,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.3" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.2/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_R-41cz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.3" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.0" connectionRouterKind="Manual" associatedMethod="setCity(String)" associatedSequenceNumber="1.4">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,258" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setCity(String)" size="69,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.4" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.3/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_R_pDYj8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.4" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.0" connectionRouterKind="Manual" associatedMethod="setCountry(String)" associatedSequenceNumber="1.5">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,318" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setCountry(String)" size="89,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.5" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.4/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SAO5Qz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.5" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.0" connectionRouterKind="Manual" associatedMethod="setCurrentDate(String)" associatedSequenceNumber="1.6">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,378" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setCurrentDate(String)" size="109,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.6" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.5/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SA-gIz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.6" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.0" connectionRouterKind="Manual" associatedMethod="setDayL(String)" associatedSequenceNumber="1.7">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,438" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setDayL(String)" size="76,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.7" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.6/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SBuHAz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.7" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.0" connectionRouterKind="Manual" associatedMethod="setDayLight(String)" associatedSequenceNumber="1.8">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,498" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setDayLight(String)" size="93,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.8" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.7/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SCdt4z8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.8" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.0" connectionRouterKind="Manual" associatedMethod="setDayLightSelfChange(String)" associatedSequenceNumber="1.9">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,558" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setDayLightSelfChange(String)" size="149,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.9" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.8/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SDN70z8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.9" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.0" connectionRouterKind="Manual" associatedMethod="setDhuhrInterval(String)" associatedSequenceNumber="1.10">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,618" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setDhuhrInterval(String)" size="115,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.10" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.9/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SD9isz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.10" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.0" connectionRouterKind="Manual" associatedMethod="setFajrTwilight(String)" associatedSequenceNumber="1.11">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,678" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setFajrTwilight(String)" size="106,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.11" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.10/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SEjYkz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.11" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.0" connectionRouterKind="Manual" associatedMethod="setId(String)" associatedSequenceNumber="1.12">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,738" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setId(String)" size="59,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.12" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.11/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SFmhcz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.12" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.0" connectionRouterKind="Manual" associatedMethod="setIshaInterval(String)" associatedSequenceNumber="1.13">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,798" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setIshaInterval(String)" size="106,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.13" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.12/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SGWIUz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.13" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.0" connectionRouterKind="Manual" associatedMethod="setIshaTwilight(String)" associatedSequenceNumber="1.14">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,858" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setIshaTwilight(String)" size="108,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.14" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.13/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SHO5Ij8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.14" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.0" connectionRouterKind="Manual" associatedMethod="setJuristicMethod(String)" associatedSequenceNumber="1.15">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,918" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setJuristicMethod(String)" size="120,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.15" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.14/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SIIRAz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.15" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.0" connectionRouterKind="Manual" associatedMethod="setLanguage(String)" associatedSequenceNumber="1.16">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,978" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setLanguage(String)" size="99,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.16" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.15/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SIut8z8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.16" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.0" connectionRouterKind="Manual" associatedMethod="setLatitude(String)" associatedSequenceNumber="1.17">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1038" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setLatitude(String)" size="89,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.17" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.16/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SJxPwz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.17" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.0" connectionRouterKind="Manual" associatedMethod="setLongitude(String)" associatedSequenceNumber="1.18">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1098" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setLongitude(String)" size="98,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.18" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.17/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SKqnoz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.18" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.0" connectionRouterKind="Manual" associatedMethod="setMaghribInterval(String)" associatedSequenceNumber="1.19">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1158" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setMaghribInterval(String)" size="124,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.19" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.18/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SLaOgD8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.19" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.0" connectionRouterKind="Manual" associatedMethod="setPrayerCustomize(String)" associatedSequenceNumber="1.20">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1218" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setPrayerCustomize(String)" size="133,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.20" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.19/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SMAEYz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.20" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.0" connectionRouterKind="Manual" associatedMethod="setRequestedMonth(String)" associatedSequenceNumber="1.21">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1278" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setRequestedMonth(String)" size="132,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.21" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.20/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SM5cQz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.21" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.0" connectionRouterKind="Manual" associatedMethod="setRequestedYear(String)" associatedSequenceNumber="1.22">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1338" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setRequestedYear(String)" size="127,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.22" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.21/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SNy0Iz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.22" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.0" connectionRouterKind="Manual" associatedMethod="setState(String)" associatedSequenceNumber="1.23">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1398" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setState(String)" size="76,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.23" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.22/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SOibAz8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.23" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.0" connectionRouterKind="Manual" associatedMethod="setTimeZone(String)" associatedSequenceNumber="1.24">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1458" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setTimeZone(String)" size="98,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.24" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.23/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" id="{UMLID=_SPut0z8KEd64PM-y8YrWmg}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.2/@children.24" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.0" connectionRouterKind="Manual" associatedMethod="setZipCode(String)" associatedSequenceNumber="1.25">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,1518" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="setZipCode(String)" size="91,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.25" size="21,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.24/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+      </children>
+    </children>
+    <children xsi:type="editmodel:InstanceEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.0" name="TranslationIslamicFinderFields" location="418,115" size="100,1673" id="{UMLID=_RmAbYD8KEd64PM-y8YrWmg}" itemName="TranslationIslamicFinderFields" creatingActivation="//@children.0/@children.2/@children.0" creation="true" InstanceType="model.processor.target.structs.TranslationIslamicFinderFields">
+      <children xsi:type="editmodel:ActivationEditModel" location="43,64" size="16,40" description="_R8EK9j8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.1" location="43,138" size="16,40" description="_R9Gsxz8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.2" location="43,198" size="16,40" description="_R-AEqD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.3" location="43,258" size="16,40" description="_R-41eD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.4" location="43,318" size="16,40" description="_R_pDZz8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.5" location="43,378" size="16,40" description="_SAO5SD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.6" location="43,438" size="16,40" description="_SBIRJD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.7" location="43,498" size="16,40" description="_SBuHCD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.8" location="43,558" size="16,40" description="_SCdt6D8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.9" location="43,618" size="16,40" description="_SDN72D8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.10" location="43,678" size="16,40" description="_SD9iuD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.11" location="43,738" size="16,40" description="_SEjYmD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.12" location="43,798" size="16,40" description="_SFmheD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.13" location="43,858" size="16,40" description="_SGfSRD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.14" location="43,918" size="16,40" description="_SHO5Jz8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.15" location="43,978" size="16,40" description="_SIIRCD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.16" location="43,1038" size="16,40" description="_SI335D8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.17" location="43,1098" size="16,40" description="_SJxPyD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.18" location="43,1158" size="16,40" description="_SKqnqD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.19" location="43,1218" size="16,40" description="_SLaOhT8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.20" location="43,1278" size="16,40" description="_SMAEaD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.21" location="43,1338" size="16,40" description="_SM5cSD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.22" location="43,1398" size="16,40" description="_SNy0KD8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.23" location="43,1458" size="16,40" description="_SOsMAT8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.24" location="43,1518" size="16,40" description="_SP4e0D8KEd64PM-y8YrWmg" sequenceItemContainer="//@children.0/@children.2"/>
+    </children>
+  </children>
+  <diagramOptions xsi:type="options:SequenceDiagramOptions" level="0"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="28,630" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:SequenceDiagramEditModel>

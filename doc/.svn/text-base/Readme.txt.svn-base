@@ -1,0 +1,163 @@
+===============================================================
+
+geniewiz productions
+smsPrayers v1.00 readme file
+(c) 2009 geniewiz productions. all rights reserved.
+
+Prepared by: Ragaeeb Haq
+Revised by: Ragaeeb Haq
+
+===============================================================
+
+Development: Ragaeeb Haq
+Documentation: Ragaeeb Haq
+Testing: Ragaeeb Haq
+
+===============================================================
+
+Contact Information:
+Ragaeeb Haq
+rhaq@connect.carleton.ca
++1(613) 219-5433
+
+Open-Source Project Website:
+http://sourceforge.net/projects/smsprayers/
+
+===============================================================
+
+Introduction:
+
+===============================================================
+
+History:
+
+	Ever since I signed up for the unlimited text messaging
+package from my phone provider but not the unlimited Internet
+data plan, I was thinking of ways how I could access data on
+the fly from anywhere and anytime. Examples of such things
+included transit service information, and prayer time information.
+This is when the idea for this project was born.
+
+===============================================================
+
+Initial Challenges:
+
+1) Using an email address rather than a dedicated number:
+	-Using a dedicated number would require the developer or the
+	 hoster of this system to have a mobile GSM SIM card
+	 hardware which means hardware dependencies are needed. I
+	 tried my best to avoid this and thus use an email address
+	 instead. This way only a dedicated email address is needed
+	 which is easily obtainable nowadays for free. A GSM SIM card
+	 can also only receive a limited number of text messages at
+	 a time and can send them out sequentially as well. Email
+	 messages do not suffer from this drawback.
+
+2) Islamic prayer time data calculation is a very mathematically
+   complex process and thus I tried to avoid doing this and
+   instead get the data from an external source:
+	-IslamicFinder.org is being used currently to retrieve the
+	 prayer time data. There are some very dirty HTML parsing from
+	 the source website being done because I was unable to find an
+	 easy-to-use HTML parser.
+
+3) Parameter passing:
+	-Currently parameters are passed through codes which the user
+	 currently needs to know about. There is currently no solution
+	 I can think of around this other than creating a GUI app that
+	 does the text messaging.
+
+===============================================================
+
+Future Plans:
+
+-Add additional parameters (day light savings start-end).
+
+-Host prayer data on a personal server so that retrieval will be
+easy, and that server will have another app to constantly
+retrieve data from IslamicFinder.org source.
+
+-Make system more object-oriented so that two EmailServers can
+be instantiated each listening to two different email accounts
+and having two different processors.
+
+-Remove codes, on startup you can have smspottawa@gmail.com for
+Ottawa, ON, Canada. This way upon startup we can just have a
+Location class that'll have the fields "city", "state", "country",
+and these fields will be extracted by the processor.
+
+-Send more detailed responses (ie: calculation methods).
+
+-Provide a GUI that will ask the user for the server information
+when hosting.
+
+-Better exception handling.
+
+-Have two separate password fields for the smtp and imap servers
+in the ConnectionInformation.
+
+-Subscribe option (clients can subscribe to the service, and every
+day the times will be messaged to them).
+
+===============================================================
+
+Requirements:
+1) To run/host the system:
+	-JRE 1.6+
+
+2) To develop the system:
+	-JDK 1.6+
+	-Javamail 1.4.1+ library
+	-JUnit 4.5+ library 
+
+
+===============================================================
+
+Set Up/Execution Instructions:
+
+Hosting from the command line:
+	java -jar "smsPrayers_v1.00.jar" "imapEmail@domain.com" "smtpEmail@domain.com" "password" "imapServer.domain.com" "smtpServer.domain.com" "port"
+	
+	Here is a breakdown of the arguments:
+	1) java: Starts up the JVM to run our executable
+	2) -jar: Tells the JVM we want to run the following JAR executable
+	         file.
+	3) SmsPrayers v1.00.jar:  This is the name of the executable as
+	   						  downloaded from the project website.
+	   						  If you downloaded a different version,
+	   						  then make sure that the name matches the
+	   						  file name. For example if you've downloaded
+	   						  "smsPrayers_1.02.jar" then you should run:
+	   						  java -jar "smsPrayers_1.02.jar" "imapEmail@domain.com" "smtpEmail@domain.com" "password" "imapServer.domain.com" "smtpServer.domain.com" "port"
+	4) imapEmail@domain.com:  This is the email address that will be monitored
+							  for new requests and also where the clients will
+							  be sending the requests to through text messages.
+							  You need to ensure that the email host you are
+							  using allows you access IMAP email. If you are
+							  using Gmail, there is a way to set this in the
+							  Settings. If you are using Gmail, then an example
+							  of this argument would be "username@gmail.com".
+	5) smtpEmail@domain.com:  The email address used to send the response back
+							  to the sender of the original message. This of course
+							  can be the same as the previous argument. However,
+							  this was only provided if you wanted to use a different
+							  email address to send the response. If you are using
+							  Gmail, an example of this argument would be
+							  "username@gmail.com".
+	6) password:			  This is the password for the accounts of both the
+							  previous arguments. This is a current limitation that
+							  the password must be the same for both these accounts.
+	7) imapServer.domain.com: The IMAP server host for #4. For example, if
+							  you are using Gmail, this domain is "imap.gmail.com".
+	8) smtpServer.domain.com: The SMTP server host for #5. For example, if
+							  you are using Gmail, this domain is "smtp.gmail.com".
+	9) port:				  This is the port to use for the SMTP server specified in
+							  #8. For example, if you are using Gmail, this value is
+							  465.
+							  
+	It is recommended that all arguments be quoted because this treats arguments with
+	spaces as one argument rather than two.
+	
+Testing from a mobile phone:
+	If your phone and provider supports texting to an email address, send a text message
+	to the address you specified in #4. You should receive the results from #5!

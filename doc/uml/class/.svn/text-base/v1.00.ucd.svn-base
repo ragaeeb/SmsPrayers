@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="v1.00" id="{UMLID=_UaCvQD7IEd6F__PzW_wNUQ,JavaID=}" metadata="uml2-1.0" initialized="true" scrolledY="1483" tag="200" key="323030373036323920536D7350726179657273">
+  <children xsi:type="editmodel:ClassEditModel" name="StartupServlet" location="28,28" size="182,128" timstampe="781" stereotype="" id="{UMLID=_QdxG8D7IEd6F__PzW_wNUQ,JavaID=controller/StartupServlet}" runTimeClassModel="startJ2SEApp(),init(Ljavax.servlet.ServletConfig;),serialVersionUID,doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;),doGet(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" size="97,14" id="{UMLID=_Q28b8D7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,64">
+      <children xsi:type="editmodel:MethodEditModel" name="doGet" size="59,14" id="{UMLID=_Q4SfwD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doPost" size="63,14" id="{UMLID=_Q4lasz7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startJ2SEApp" size="96,14" id="{UMLID=_Q4lasj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="init" size="43,14" id="{UMLID=_Q3i44T7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_Q7kdQT7IEd6F__PzW_wNUQ}" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="38,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,47" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,47"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Controller" location="310,28" size="154,96" timstampe="1342" stereotype="" id="{UMLID=_Q4vLsD7IEd6F__PzW_wNUQ,JavaID=controller/Controller}" runTimeClassModel="main([Ljava.lang.String;),server,Controller(Lmodel.structs.ConnectionInformation;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="49,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="server" size="49,14" id="{UMLID=_Q9Wl8D7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,32">
+      <children xsi:type="editmodel:MethodEditModel" name="Controller" size="76,14" id="{UMLID=_Q9gW8z7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" size="52,14" id="{UMLID=_Q9Wl9z7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Q_JVsT7IEd6F__PzW_wNUQ}" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="109,96" id="{UMLID=_Q_JVsj7IEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="412,131" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="server" location="43,0" id="{UMLID=_Q9Wl8D7IEd6F__PzW_wNUQ}" multiplicityLabel="//@children.1/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="406,161" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- server" location="426,161" size="39,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_Q99C4T7IEd6F__PzW_wNUQ}" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="50,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,69" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,27"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="EmailServer" location="376,182" size="195,224" timstampe="1785" stereotype="" id="{UMLID=_Q9Wl9D7IEd6F__PzW_wNUQ,JavaID=model.server/EmailServer}" runTimeClassModel="setProcessorGenerator(Lmodel.eventHandlers.ProcessorGenerator;),connectionInfo,getImapServer(),processorGenerator,processGenerator,smtpServer,run(),getSmtpServer(),imapServer,getProcessorGenerator(),EmailServer(Lmodel.structs.ConnectionInformation;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,80">
+      <children xsi:type="editmodel:AttributeEditModel" name="connectionInfo" size="88,14" id="{UMLID=_Y03UwD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imapServer" size="72,14" id="{UMLID=_Y1BFxz7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="processGenerator" size="106,14" id="{UMLID=_Y1BFwD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="smtpServer" size="73,14" id="{UMLID=_Y03Uwj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="processorGenerator" size="116,14" id="{UMLID=_DfW6VD7JEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,96">
+      <children xsi:type="editmodel:MethodEditModel" name="EmailServer" size="87,14" id="{UMLID=_Y1UAsj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImapServer" size="100,14" id="{UMLID=_Y1KPtj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSmtpServer" size="102,14" id="{UMLID=_Y1KPsz7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" size="46,14" id="{UMLID=_Y1KPsj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProcessorGenerator" size="144,14" id="{UMLID=_Dv5Qsj7JEd6F__PzW_wNUQ}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setProcessorGenerator" size="144,14" id="{UMLID=_DvvfsD7JEd6F__PzW_wNUQ}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5yRAD7IEd6F__PzW_wNUQ}" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="195,71" id="{UMLID=_Y5yRAT7IEd6F__PzW_wNUQ}" attachSource="true" flags="1"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="connectionInfo" location="0,183" id="{UMLID=_Y03UwD7IEd6F__PzW_wNUQ}" multiplicityLabel="//@children.2/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="729,260" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- connectionInfo" location="657,232" size="78,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5yRAj7IEd6F__PzW_wNUQ}" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="195,214" id="{UMLID=_Y5yRAz7IEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="578,375" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="imapServer" location="10,0" id="{UMLID=_Y1BFxz7IEd6F__PzW_wNUQ}" multiplicityLabel="//@children.2/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.2/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="567,399" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- imapServer" location="587,399" size="62,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_Y5yRBD7IEd6F__PzW_wNUQ}" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="195,214" id="{UMLID=_Y5yRBT7IEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="578,375" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="smtpServer" location="10,0" id="{UMLID=_Y03Uwj7IEd6F__PzW_wNUQ}" multiplicityLabel="//@children.2/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.2/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="810,609" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- smtpServer" location="830,609" size="63,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_DfW6UD7JEd6F__PzW_wNUQ}" source="//@children.2" target="//@children.6" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="emailServer" location="24,224" id="{UMLID=_DfW6UT7JEd6F__PzW_wNUQ}" attachSource="true" aggregationKind="Aggregration" flags="2"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="processorGenerator" location="259,0" id="{UMLID=_DfW6VD7JEd6F__PzW_wNUQ}" multiplicityLabel="//@children.2/@sourceConnections.3/@children.2/@children.0" roleLabel="//@children.2/@sourceConnections.3/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="387,567" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- processorGenerator" location="407,567" size="106,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1 //@children.2/@sourceConnections.0" name="ConnectionInformation" location="742,70" size="263,256" timstampe="1456" stereotype="" id="{UMLID=_Q9gW9T7IEd6F__PzW_wNUQ,JavaID=model.structs/ConnectionInformation}" runTimeClassModel="imapHost,smtpHost,getPassword(),smtpUsername,smtpHostPort,getSmtpUsername(),imapUsername,ConnectionInformation(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I),password,getSmtpHostPort(),getSmtpHost(),getImapHost(),getImapUsername()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,96">
+      <children xsi:type="editmodel:AttributeEditModel" name="imapHost" size="61,14" id="{UMLID=_eafggD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imapUsername" size="88,14" id="{UMLID=_eapRhD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" size="67,14" id="{UMLID=_eapRhj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="smtpHost" size="62,14" id="{UMLID=_eafggj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="smtpHostPort" size="81,14" id="{UMLID=_eapRgj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="smtpUsername" size="89,14" id="{UMLID=_eapRgD7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,112">
+      <children xsi:type="editmodel:MethodEditModel" name="ConnectionInformation" size="137,14" id="{UMLID=_ea8Mdj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImapHost" size="89,14" id="{UMLID=_ebPHZD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImapUsername" size="116,14" id="{UMLID=_eaybcT7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPassword" size="95,14" id="{UMLID=_ebY4YD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSmtpHost" size="91,14" id="{UMLID=_ea8Mcz7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSmtpHostPort" size="110,14" id="{UMLID=_ea8McD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSmtpUsername" size="118,14" id="{UMLID=_eaybdD7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_qn6foD7IEd6F__PzW_wNUQ}" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="info" location="166,256" id="{UMLID=_qcSecz7IEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="895,333" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- info" location="915,333" size="25,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="95,0" id="{UMLID=_qn6foT7IEd6F__PzW_wNUQ}" flags="1"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1" name="ImapServer" location="570,420" size="191,192" timstampe="3792" stereotype="" id="{UMLID=_Y1KPsD7IEd6F__PzW_wNUQ,JavaID=model.server/ImapServer}" runTimeClassModel="monitorInbox(),ImapServer(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljavax.mail.event.MessageCountAdapter;),IDLE_TIME,close(),inbox,MAIL_FOLDER_NAME,openAndMonitor(Ljavax.mail.event.MessageCountAdapter;),imapStore,IMAP_STORE_NAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,80">
+      <children xsi:type="editmodel:AttributeEditModel" name="IDLE_TIME" size="68,14" id="{UMLID=_pQvRUD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="IMAP_STORE_NAME" size="116,14" id="{UMLID=_pRCMST7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="MAIL_FOLDER_NAME" size="122,14" id="{UMLID=_pRCMQz7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imapStore" size="65,14" id="{UMLID=_pRCMRT7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="inbox" size="43,14" id="{UMLID=_pQvRUj7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,64">
+      <children xsi:type="editmodel:MethodEditModel" name="ImapServer" size="85,14" id="{UMLID=_pRVHMj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="close" size="56,14" id="{UMLID=_pRopMD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="monitorInbox" size="89,14" id="{UMLID=_pRe4Nj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="openAndMonitor" size="107,14" id="{UMLID=_pRL9QT7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2 //@children.3/@sourceConnections.0 //@children.7/@sourceConnections.2 //@children.10/@sourceConnections.0" name="SmtpServer" location="813,630" size="192,160" timstampe="1853" stereotype="" id="{UMLID=_Y03UxD7IEd6F__PzW_wNUQ,JavaID=model.server/SmtpServer}" runTimeClassModel="connect(),MESSAGE_TYPE,transport,SmtpServer(Lmodel.structs.ConnectionInformation;),mailSession,sendMessage(Ljava.lang.String;Ljava.lang.String;[Ljavax.mail.Address;),info">
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="MESSAGE_TYPE" size="99,14" id="{UMLID=_qcItcD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="info" size="35,14" id="{UMLID=_qcSecz7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mailSession" size="74,14" id="{UMLID=_qcSecT7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="transport" size="61,14" id="{UMLID=_qcItcj7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,48">
+      <children xsi:type="editmodel:MethodEditModel" name="SmtpServer" size="87,14" id="{UMLID=_qclZZT7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="connect" size="67,14" id="{UMLID=_qcSedT7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" size="98,14" id="{UMLID=_qcboYD7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_AA4BQD7JEd6F__PzW_wNUQ}" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="server" location="0,58" id="{UMLID=__12dBD7IEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="800,695" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# server" location="765,667" size="41,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="285,100" id="{UMLID=_AA4BQT7JEd6F__PzW_wNUQ}" multiplicityLabel="//@children.5/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="433,667" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.3 //@children.5/@sourceConnections.0 //@children.7/@sourceConnections.0" name="ProcessorGenerator" location="141,588" size="285,160" timstampe="2648" stereotype="" id="{UMLID=_8UGNgD7IEd6F__PzW_wNUQ,JavaID=model.eventHandlers/ProcessorGenerator}" runTimeClassModel="pool,generateProcessor(Ljavax.mail.internet.MimeMessage;),server,processor,messagesAdded(Ljavax.mail.event.MessageCountEvent;),ProcessorGenerator(Lmodel.server.SmtpServer;),EXPECTED_BODY_TYPE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="EXPECTED_BODY_TYPE" size="138,14" id="{UMLID=__2AOAT7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pool" size="39,14" id="{UMLID=__1tTED7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="processor" size="69,14" id="{UMLID=__12dBj7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="server" size="51,14" id="{UMLID=__12dBD7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,48">
+      <children xsi:type="editmodel:MethodEditModel" name="ProcessorGenerator" size="129,14" id="{UMLID=__2TI8D7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generateProcessor" size="124,14" id="{UMLID=__2AOAz7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="messagesAdded" size="112,14" id="{UMLID=__2TI8z7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_AAu3UD7JEd6F__PzW_wNUQ}" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="285,150" id="{UMLID=_AAu3UT7JEd6F__PzW_wNUQ}" attachSource="true" flags="1"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="processor" location="10,0" id="{UMLID=__12dBj7IEd6F__PzW_wNUQ}" multiplicityLabel="//@children.6/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="512,898" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# processor" location="532,898" size="59,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PrayersProcessorGenerator" location="112,798" size="343,80" timstampe="114" stereotype="" id="{UMLID=_8T9DkT7IEd6F__PzW_wNUQ,JavaID=model.eventHandlers/PrayersProcessorGenerator}" runTimeClassModel="generateProcessor(Ljavax.mail.internet.MimeMessage;),PrayersProcessorGenerator(Lmodel.server.SmtpServer;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,32">
+      <children xsi:type="editmodel:MethodEditModel" name="PrayersProcessorGenerator" size="167,14" id="{UMLID=_8UP-gD7IEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generateProcessor" size="123,14" id="{UMLID=_8UP-gz7IEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_8UGNgj7IEd6F__PzW_wNUQ}" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="171,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,160"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_AAu3UD7JEd6F__PzW_wNUQ}" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="333,80" id="{UMLID=_AAu3UT7JEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="438,885" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="processor" location="0,10" id="{UMLID=__12dBj7IEd6F__PzW_wNUQ}" multiplicityLabel="//@children.7/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.7/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="502,908" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# processor" location="449,936" size="59,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_AA4BQD7JEd6F__PzW_wNUQ}" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="343,10" id="{UMLID=_AA4BQT7JEd6F__PzW_wNUQ}" attachSource="true" flags="1"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="server" location="10,160" id="{UMLID=__12dBD7IEd6F__PzW_wNUQ}" multiplicityLabel="//@children.7/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.7/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="810,797" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# server" location="830,797" size="41,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.7/@sourceConnections.1 //@children.16/@sourceConnections.0" name="RequestProcessor" location="515,919" size="246,96" timstampe="692" stereotype="" id="{UMLID=_8Ui5cD7IEd6F__PzW_wNUQ,JavaID=model.processor/RequestProcessor}" runTimeClassModel="response,RequestProcessor(Ljavax.mail.internet.MimeMessage;Lmodel.server.SmtpServer;),properties">
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="properties" size="68,14" id="{UMLID=_tdcF1D7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="response" size="65,14" id="{UMLID=_tdcF0D7JEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,16">
+      <children xsi:type="editmodel:MethodEditModel" name="RequestProcessor" size="120,14" id="{UMLID=_tdlPxD7JEd6F__PzW_wNUQ,JavaID=model.processor/RequestProcessor#RequestProcessor(Ljavax.mail.internet.MimeMessage;Lmodel.server.SmtpServer;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_thKIMT7JEd6F__PzW_wNUQ}" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="236,96" id="{UMLID=_thKIMj7JEd6F__PzW_wNUQ}" attachSource="true" flags="1"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="properties" location="117,0" id="{UMLID=_tdcF1D7JEd6F__PzW_wNUQ}" multiplicityLabel="//@children.8/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.8/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1350,1134" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# properties" location="1370,1134" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_thKIMz7JEd6F__PzW_wNUQ}" source="//@children.8" target="//@children.10" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="246,30" id="{UMLID=_thKIND7JEd6F__PzW_wNUQ}" attachSource="true" flags="1"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="response" location="0,81" id="{UMLID=_tdcF0D7JEd6F__PzW_wNUQ}" multiplicityLabel="//@children.8/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.8/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="911,956" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# response" location="862,928" size="55,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0 //@children.16/@sourceConnections.1" name="PrayerRequestProperties" location="1246,1155" size="345,240" timstampe="1605" stereotype="" id="{UMLID=_tdlPwT7JEd6F__PzW_wNUQ,JavaID=model.processor.structs/PrayerRequestProperties}" runTimeClassModel="formatter,initializeCodes(),PrayerRequestProperties(Ljavax.mail.Message;),getData(),extractValue(Ljava.lang.String;Ljava.lang.String;),getTargetURL(),builder,data,codes,REQUIRED_FORMAT,processFields(Ljava.lang.String;),DELIMITER">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,96">
+      <children xsi:type="editmodel:AttributeEditModel" name="DELIMITER" size="67,14" id="{UMLID=_5f05oD7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="formatter" size="61,14" id="{UMLID=_5fPDwD7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="REQUIRED_FORMAT" size="116,14" id="{UMLID=_5frIpj7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="builder" size="49,14" id="{UMLID=_5fh-sz7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="data" size="38,14" id="{UMLID=_5fPDxD7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="codes" size="47,14" id="{UMLID=_5frIoj7JEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="151,96">
+      <children xsi:type="editmodel:MethodEditModel" name="PrayerRequestProperties" size="151,14" id="{UMLID=_5gbWkT7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getData" size="67,14" id="{UMLID=_5f-qoD7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTargetURL" size="96,14" id="{UMLID=_5f-qoz7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="processFields" size="96,14" id="{UMLID=_5f05oj7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractValue" size="90,14" id="{UMLID=_5gRlkj7JEd6F__PzW_wNUQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initializeCodes" size="96,14" id="{UMLID=_5gkggD7JEd6F__PzW_wNUQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_5vBzQD7JEd6F__PzW_wNUQ}" source="//@children.9" target="//@children.11" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,230" id="{UMLID=_5vBzQT7JEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="1239,1364" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="data" location="375,0" id="{UMLID=_5fPDxD7JEd6F__PzW_wNUQ}" multiplicityLabel="//@children.9/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.9/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="886,2504" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- data" location="844,2504" size="28,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_5u4CQj7JEd6F__PzW_wNUQ}" source="//@children.9" target="//@children.12" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="138,240" id="{UMLID=_5u4CQz7JEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="1377,1402" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="builder" location="194,0" id="{UMLID=_5fh-sz7JEd6F__PzW_wNUQ}" multiplicityLabel="//@children.9/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.9/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1371,1995" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- builder" location="1391,1995" size="39,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_5u4CQD7JEd6F__PzW_wNUQ}" source="//@children.9" target="//@children.13" targetEnd="//@children.9/@sourceConnections.2/@children.2" label="//@children.9/@sourceConnections.2/@children.0" sourceEnd="//@children.9/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,184" id="{UMLID=_5u4CQT7JEd6F__PzW_wNUQ}" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="1239,1318" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="codes" location="356,166" id="{UMLID=_5frIoj7JEd6F__PzW_wNUQ}" multiplicityLabel="//@children.9/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.9/@sourceConnections.2/@children.2/@children.2" orderingLabel="//@children.9/@sourceConnections.2/@children.2/@children.0" scopeKind="1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="1034,1251" size="34,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1034,1293" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- codes" location="1034,1265" size="37,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_5eom0j7JEd6F__PzW_wNUQ}" source="//@children.9" target="//@children.15" targetEnd="//@children.9/@sourceConnections.3/@children.1" sourceEnd="//@children.9/@sourceConnections.3/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,112"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1" name="Response" location="924,868" size="200,112" timstampe="877" stereotype="" id="{UMLID=_tdcF0j7JEd6F__PzW_wNUQ,JavaID=model.processor/Response}" runTimeClassModel="destinations,Response(Lmodel.server.SmtpServer;[Ljavax.mail.Address;),smtpServer,process(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="smtpServer" size="73,14" id="{UMLID=_MAxFQz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="destinations" size="75,14" id="{UMLID=_MALPYD7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,32">
+      <children xsi:type="editmodel:MethodEditModel" name="Response" size="79,14" id="{UMLID=_MBXiMD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="process" size="70,14" id="{UMLID=_MA62QD7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_MEo4oD7KEd6EWdnPM5Ci3g}" source="//@children.10" target="//@children.5" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="40,0" id="{UMLID=_MEo4oT7KEd6EWdnPM5Ci3g}" attachSource="true" flags="1"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="smtpServer" location="151,160" id="{UMLID=_MAxFQz7KEd6EWdnPM5Ci3g}" multiplicityLabel="//@children.10/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.10/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="951,797" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- smtpServer" location="971,797" size="63,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0" name="DataIslamicFinderFields" location="504,2408" size="385,192" timstampe="1021" stereotype="" id="{UMLID=_5fh-sD7JEd6F__PzW_wNUQ,JavaID=model.processor.target.structs/DataIslamicFinderFields}" runTimeClassModel="setRequestedDate(Ljava.util.Date;),ONE,getRequestedMonth(),DataIslamicFinderFields(),getRequestedDay(),getRequestedYear(),ZERO,CHANGE_TIME_VALUE,calendar">
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="ONE" size="38,14" id="{UMLID=_SimakD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ZERO" size="45,14" id="{UMLID=_SivkgD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="calendar" size="59,14" id="{UMLID=_SivkhD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="CHANGE_TIME_VALUE" size="129,14" id="{UMLID=_Sivkgj7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,80">
+      <children xsi:type="editmodel:MethodEditModel" name="DataIslamicFinderFields" size="142,14" id="{UMLID=_SjCfcj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRequestedDay" size="116,14" id="{UMLID=_Si5VhT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRequestedMonth" size="126,14" id="{UMLID=_Si5Vgj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRequestedYear" size="121,14" id="{UMLID=_SjMQdD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRequestedDate" size="119,14" id="{UMLID=_SjCfcz7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.14/@sourceConnections.0" size="2,1" autoLocated="true" id="{UMLID=_SiS4kD7KEd6EWdnPM5Ci3g}" source="//@children.11" target="//@children.13" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="192,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,1184" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.1 //@children.12/@sourceConnections.1" name="IslamicFinderUrlBuilder" location="1190,2016" size="334,176" timstampe="569" stereotype="" id="{UMLID=_5fh-tT7JEd6F__PzW_wNUQ,JavaID=model.processor.target/IslamicFinderUrlBuilder}" runTimeClassModel="PREFIX,getInstance(),SEPARATOR,build(Lmodel.processor.structs.PrayerRequestProperties;),VALUE,translations,instance,IslamicFinderUrlBuilder()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,80">
+      <children xsi:type="editmodel:AttributeEditModel" name="PREFIX" size="51,14" id="{UMLID=_TWc5YD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="SEPARATOR" size="80,14" id="{UMLID=_TWc5Yj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="translations" size="73,14" id="{UMLID=_TWmqYD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="VALUE" size="52,14" id="{UMLID=_TWc5ZD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="instance" size="58,14" id="{UMLID=_TWmqZD7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,48">
+      <children xsi:type="editmodel:MethodEditModel" name="IslamicFinderUrlBuilder" size="136,14" id="{UMLID=_TW5lUz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="build" size="52,14" id="{UMLID=_TWv0Uj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" size="86,14" id="{UMLID=_TWmqZj7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_TdmqQD7KEd6EWdnPM5Ci3g}" source="//@children.12" target="//@children.14" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="129,176" id="{UMLID=_TdmqQT7KEd6EWdnPM5Ci3g}" attachSource="true" multiplicityLabel="//@children.12/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" location="1312,2199" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="translations" location="297,0" id="{UMLID=_TWmqYD7KEd6EWdnPM5Ci3g}" multiplicityLabel="//@children.12/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.12/@sourceConnections.0/@children.2/@children.2" orderingLabel="//@children.12/@sourceConnections.0/@children.2/@children.0" scopeKind="1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="1326,2324" size="34,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1306,2338" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- translations" location="1326,2338" size="63,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_TdmqQj7KEd6EWdnPM5Ci3g}" source="//@children.12" target="//@children.12" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="instance" location="0,10" id="{UMLID=_TWmqZD7KEd6EWdnPM5Ci3g}" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.12/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.12/@sourceConnections.1/@children.1/@children.2" orderingLabel="//@children.12/@sourceConnections.1/@children.1/@children.0" scopeKind="1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="1149,2033" size="34,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1177,2005" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- instance" location="1135,2047" size="48,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_TdmqQz7KEd6EWdnPM5Ci3g}" anchorKind="FixedAtEdge" flags="1"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0 //@children.9/@sourceConnections.2" name="IslamicFinderFields" location="476,1120" size="356,1184" timstampe="5522" stereotype="" id="{UMLID=_5frIpD7JEd6F__PzW_wNUQ,JavaID=model.processor.target.structs/IslamicFinderFields}" runTimeClassModel="setLatitude(Ljava.lang.String;),ishaInterval,setIshaInterval(Ljava.lang.String;),setDayLight(Ljava.lang.String;),changeTime,getLongitude(),getLatitude(),setPrayerCustomize(Ljava.lang.String;),requestedDate,getCalculationMethod(),setCountry(Ljava.lang.String;),city,setJuristicMethod(Ljava.lang.String;),setCurrentDate(Ljava.lang.String;),dayL,setMaghribInterval(Ljava.lang.String;),ishaTwilight,getTimeZone(),zipCode,longitude,getFajrTwilight(),setCalculationMethod(Ljava.lang.String;),getState(),setRequestedDate(Ljava.lang.String;),setLongitude(Ljava.lang.String;),country,getCity(),getPrayerCustomize(),getId(),currentDate,dayLightSelfChange,language,latitude,getDhuhrInterval(),maghribInterval,setDhuhrInterval(Ljava.lang.String;),setIshaTwilight(Ljava.lang.String;),IslamicFinderFields(),state,getIshaTwilight(),getIshaInterval(),timeZone,BLANK,getJuristicMethod(),setCity(Ljava.lang.String;),id,getRequestedDate(),getDayLight(),setChangeTime(Ljava.lang.String;),dhuhrInterval,setZipCode(Ljava.lang.String;),getCountry(),setDayL(Ljava.lang.String;),dayLight,setLanguage(Ljava.lang.String;),getLanguage(),setDayLightSelfChange(Ljava.lang.String;),prayerCustomize,getChangeTime(),fajrTwilight,getZipCode(),setId(Ljava.lang.String;),getMaghribInterval(),setFajrTwilight(Ljava.lang.String;),getDayLightSelfChange(),getDayL(),setState(Ljava.lang.String;),calculationMethod,getCurrentDate(),setTimeZone(Ljava.lang.String;),juristicMethod">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,384">
+      <children xsi:type="editmodel:AttributeEditModel" name="BLANK" size="54,14" id="{UMLID=_UHxooD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="calculationMethod" size="105,14" id="{UMLID=_UH7Zoz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="changeTime" size="77,14" id="{UMLID=_UHetsj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="city" size="36,14" id="{UMLID=_UHxopD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="country" size="56,14" id="{UMLID=_UHxopj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="currentDate" size="76,14" id="{UMLID=_UH7ZpT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dayL" size="43,14" id="{UMLID=_UIOUkD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dayLight" size="60,14" id="{UMLID=_UHn3oD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dayLightSelfChange" size="116,14" id="{UMLID=_UIXehT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dhuhrInterval" size="82,14" id="{UMLID=_UIhPgT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fajrTwilight" size="72,14" id="{UMLID=_UHxooj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" size="27,14" id="{UMLID=_UH7ZoT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ishaInterval" size="74,14" id="{UMLID=_UHetsD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ishaTwilight" size="76,14" id="{UMLID=_UIOUkj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="juristicMethod" size="85,14" id="{UMLID=_UIXehz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="language" size="63,14" id="{UMLID=_UIXegz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="latitude" size="53,14" id="{UMLID=_UIXegT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="longitude" size="62,14" id="{UMLID=_UIOUlj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maghribInterval" size="92,14" id="{UMLID=_UIXeiT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="prayerCustomize" size="101,14" id="{UMLID=_UHn3pj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="requestedDate" size="90,14" id="{UMLID=_UHn3pD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="state" size="43,14" id="{UMLID=_UHettD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="timeZone" size="63,14" id="{UMLID=_UHn3oj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zipCode" size="58,14" id="{UMLID=_UIOUlD7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,752">
+      <children xsi:type="editmodel:MethodEditModel" name="IslamicFinderFields" size="120,14" id="{UMLID=_UKm6OD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCalculationMethod" size="132,14" id="{UMLID=_UKAdQD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getChangeTime" size="104,14" id="{UMLID=_UJHsdD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCity" size="63,14" id="{UMLID=_UJanYz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCountry" size="83,14" id="{UMLID=_UKdJNj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrentDate" size="103,14" id="{UMLID=_UKdJMD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDayL" size="70,14" id="{UMLID=_UJtiUj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDayLight" size="87,14" id="{UMLID=_UIrAgz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDayLightSelfChange" size="143,14" id="{UMLID=_UKT_RT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDhuhrInterval" size="109,14" id="{UMLID=_UJjxWz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFajrTwilight" size="100,14" id="{UMLID=_UJtiWD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" size="53,14" id="{UMLID=_UJ3TVz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIshaInterval" size="100,14" id="{UMLID=_UKT_Qj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIshaTwilight" size="102,14" id="{UMLID=_UJanaT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJuristicMethod" size="114,14" id="{UMLID=_UKKOQj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLanguage" size="93,14" id="{UMLID=_UJjxWD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLatitude" size="83,14" id="{UMLID=_UKT_SD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLongitude" size="92,14" id="{UMLID=_UJanYD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaghribInterval" size="118,14" id="{UMLID=_UKAdST7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPrayerCustomize" size="127,14" id="{UMLID=_UJjxUj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRequestedDate" size="119,14" id="{UMLID=_UI97dT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getState" size="70,14" id="{UMLID=_UI0KcD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTimeZone" size="92,14" id="{UMLID=_UKKORT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getZipCode" size="85,14" id="{UMLID=_UJQ2Zz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCalculationMethod" size="132,14" id="{UMLID=_UKdJMz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setChangeTime" size="104,14" id="{UMLID=_UJjxVT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCity" size="63,14" id="{UMLID=_UJQ2ZD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCountry" size="83,14" id="{UMLID=_UJtiVT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCurrentDate" size="103,14" id="{UMLID=_UJQ2YT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDayL" size="70,14" id="{UMLID=_UI0Kcz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDayLight" size="87,14" id="{UMLID=_UKm6NT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDayLightSelfChange" size="143,14" id="{UMLID=_UIrAgD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDhuhrInterval" size="109,14" id="{UMLID=_UJHscT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFajrTwilight" size="100,14" id="{UMLID=_UKKOSD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" size="53,14" id="{UMLID=_UI97cj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIshaInterval" size="100,14" id="{UMLID=_UJanZj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIshaTwilight" size="102,14" id="{UMLID=_UKm6Mj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setJuristicMethod" size="114,14" id="{UMLID=_UIhPhj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLanguage" size="93,14" id="{UMLID=_UJ3TUT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLatitude" size="83,14" id="{UMLID=_UKAdQz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLongitude" size="92,14" id="{UMLID=_UJHsdz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaghribInterval" size="118,14" id="{UMLID=_UJ3TVD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPrayerCustomize" size="127,14" id="{UMLID=_UKAdRj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRequestedDate" size="119,14" id="{UMLID=_UI0Kdj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setState" size="70,14" id="{UMLID=_UI0KeT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTimeZone" size="92,14" id="{UMLID=_UIrAhj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setZipCode" size="85,14" id="{UMLID=_UIhPgz7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.0" name="TranslationIslamicFinderFields" location="1022,2359" size="427,160" timstampe="705" stereotype="" id="{UMLID=_TWmqYj7KEd6EWdnPM5Ci3g,JavaID=model.processor.target.structs/TranslationIslamicFinderFields}" runTimeClassModel="TranslationIslamicFinderFields(),setRequestedMonth(Ljava.lang.String;),getRequestedMonth(),getRequestedYear(),requestedYear,requestedMonth,setRequestedYear(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="requestedMonth" size="95,14" id="{UMLID=_iWFhcj7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="requestedYear" size="90,14" id="{UMLID=_iWFhcD7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="173,80">
+      <children xsi:type="editmodel:MethodEditModel" name="TranslationIslamicFinderFields" size="173,14" id="{UMLID=_iWYcYz7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRequestedMonth" size="126,14" id="{UMLID=_iWYcYD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRequestedYear" size="121,14" id="{UMLID=_iWPSdD7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRequestedMonth" size="126,14" id="{UMLID=_iWPScT7KEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRequestedYear" size="121,14" id="{UMLID=_iWFhdD7KEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_iV7wcD7KEd6EWdnPM5Ci3g}" source="//@children.14" target="//@children.11/@sourceConnections.0" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="213,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.3" name="RequestProperties" location="1288,877" size="296,112" timstampe="667" stereotype="" id="{UMLID=_5eom0D7JEd6F__PzW_wNUQ,JavaID=model.processor.structs/RequestProperties}" runTimeClassModel="RequestProperties(Ljavax.mail.Message;),getTargetURL(),getFrom(),from">
+    <children xsi:type="editmodel:CompartmentEditModel" size="41,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="from" size="41,14" id="{UMLID=_HW7W4D7LEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,48">
+      <children xsi:type="editmodel:MethodEditModel" name="RequestProperties" size="119,14" id="{UMLID=_HW7W5D7LEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFrom" size="69,14" id="{UMLID=_HXEg1D7LEd6EWdnPM5Ci3g}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTargetURL" size="98,14" id="{UMLID=_HXEg0T7LEd6EWdnPM5Ci3g}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PrayerRequestProcessor" location="83,979" size="294,80" timstampe="461" stereotype="" id="{UMLID=_jsPmoD7LEd6BjNk1ZBVKmw,JavaID=model.processor/PrayerRequestProcessor}" runTimeClassModel="run(),PrayerRequestProcessor(Ljavax.mail.internet.MimeMessage;Lmodel.server.SmtpServer;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,32">
+      <children xsi:type="editmodel:MethodEditModel" name="PrayerRequestProcessor" size="152,14" id="{UMLID=_jtSvgD7LEd6BjNk1ZBVKmw,JavaID=model.processor/PrayerRequestProcessor#PrayerRequestProcessor(Ljavax.mail.internet.MimeMessage;Lmodel.server.SmtpServer;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" size="46,14" id="{UMLID=_js_NgD7LEd6BjNk1ZBVKmw,JavaID=model.processor/PrayerRequestProcessor#run()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_jsjIoD7LEd6BjNk1ZBVKmw}" source="//@children.16" target="//@children.8" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="294,18" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,78"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_thKIMT7JEd6F__PzW_wNUQ}" source="//@children.16" target="//@children.9" targetEnd="//@children.16/@sourceConnections.1/@children.2" label="//@children.16/@sourceConnections.1/@children.0" sourceEnd="//@children.16/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="294,70" id="{UMLID=_thKIMj7JEd6F__PzW_wNUQ}" attachSource="true" flags="1"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="properties" location="10,0" id="{UMLID=_tdcF1D7JEd6F__PzW_wNUQ}" multiplicityLabel="//@children.16/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.16/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="4">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1243,1134" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="# properties" location="1263,1134" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_j2FfIT7LEd6BjNk1ZBVKmw}" source="//@children.16" target="//@children.17" targetEnd="//@children.16/@sourceConnections.2/@children.2" label="//@children.16/@sourceConnections.2/@children.0" sourceEnd="//@children.16/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="73,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,80" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_jyD6wT7LEd6BjNk1ZBVKmw}" source="//@children.16" target="//@children.18" targetEnd="//@children.16/@sourceConnections.3/@children.2" label="//@children.16/@sourceConnections.3/@children.0" sourceEnd="//@children.16/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="73,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="238,80" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="55,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.16/@sourceConnections.2" name="QueryResults" location="89,1106" size="222,320" timstampe="1899" stereotype="" id="{UMLID=_juLgUj7LEd6BjNk1ZBVKmw,JavaID=model.processor/QueryResults}" runTimeClassModel="location,getLocation(),process(LCollection;),HEADER_KEY,DATA_KEY,getCalculationMethod(),getJuristicMethod(),JURISTIC,processData(Ljava.lang.String;),LOCATION,ISLAMIC_DATA_TD,calculationMethod,processHeader(Ljava.lang.String;),CALC_METHOD,serialVersionUID,QueryResults(LCollection;),juristicMethod">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,160">
+      <children xsi:type="editmodel:AttributeEditModel" name="CALC_METHOD" size="93,14" id="{UMLID=_z3SR5j7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="DATA_KEY" size="73,14" id="{UMLID=_z3lM0T7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="HEADER_KEY" size="85,14" id="{UMLID=_z3bb1T7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ISLAMIC_DATA_TD" size="111,14" id="{UMLID=_z3SR4D7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="JURISTIC" size="60,14" id="{UMLID=_z3Ig4D7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="LOCATION" size="69,14" id="{UMLID=_z3Ig4j7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" size="97,14" id="{UMLID=_z3bb0T7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="calculationMethod" size="103,14" id="{UMLID=_z3SR4j7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="juristicMethod" size="83,14" id="{UMLID=_z3bb0z7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="location" size="54,14" id="{UMLID=_z3SR5D7LEd6BjNk1ZBVKmw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,112">
+      <children xsi:type="editmodel:MethodEditModel" name="QueryResults" size="96,14" id="{UMLID=_z4B4wj7LEd6BjNk1ZBVKmw,JavaID=model.processor/QueryResults#QueryResults(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCalculationMethod" size="132,14" id="{UMLID=_z3lM0z7LEd6BjNk1ZBVKmw,JavaID=model.processor/QueryResults#getCalculationMethod()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJuristicMethod" size="114,14" id="{UMLID=_z4LCsT7LEd6BjNk1ZBVKmw,JavaID=model.processor/QueryResults#getJuristicMethod()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLocation" size="86,14" id="{UMLID=_z34Hxz7LEd6BjNk1ZBVKmw,JavaID=model.processor/QueryResults#getLocation()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="process" size="68,14" id="{UMLID=_z3uWwj7LEd6BjNk1ZBVKmw,JavaID=model.processor/QueryResults#process(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="processData" size="90,14" id="{UMLID=_z3lM1j7LEd6BjNk1ZBVKmw,JavaID=model.processor/QueryResults#processData(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="processHeader" size="103,14" id="{UMLID=_z4B4xT7LEd6BjNk1ZBVKmw,JavaID=model.processor/QueryResults#processHeader(Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_z_UzkT7LEd6BjNk1ZBVKmw}" source="//@children.17" target="//@children.18" targetEnd="//@children.17/@sourceConnections.0/@children.2" label="//@children.17/@sourceConnections.0/@children.0" sourceEnd="//@children.17/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="128,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="199,320" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@sourceConnections.0 //@children.16/@sourceConnections.3" name="PrayerData" location="266,1484" size="258,352" timstampe="1017" stereotype="" id="{UMLID=_juLgUD7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData}" runTimeClassModel="setSunrise(Ljava.lang.String;),PrayerData(),setFajrTime(Ljava.lang.String;),ishaTime,getFajrTime(),setIshaTime(Ljava.lang.String;),fajrTime,dhuhrTime,getAsrTime(),getIshaTime(),getSunrise(),setDhuhrTime(Ljava.lang.String;),setMaghribTime(Ljava.lang.String;),setAsrTime(Ljava.lang.String;),sunrise,getMaghribTime(),maghribTime,asrTime,getDhuhrTime()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,96">
+      <children xsi:type="editmodel:AttributeEditModel" name="asrTime" size="55,14" id="{UMLID=_5IynxD7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dhuhrTime" size="67,14" id="{UMLID=_5Ipd0j7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fajrTime" size="55,14" id="{UMLID=_5Ipd0D7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ishaTime" size="59,14" id="{UMLID=_5Ipd1D7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maghribTime" size="77,14" id="{UMLID=_5Iynwj7LEd6BjNk1ZBVKmw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sunrise" size="53,14" id="{UMLID=_5IynwD7LEd6BjNk1ZBVKmw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,208">
+      <children xsi:type="editmodel:MethodEditModel" name="PrayerData" size="84,14" id="{UMLID=_5JPTsD7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#PrayerData()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAsrTime" size="85,14" id="{UMLID=_5JFitD7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#getAsrTime()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDhuhrTime" size="96,14" id="{UMLID=_5JFisT7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#getDhuhrTime()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFajrTime" size="85,14" id="{UMLID=_5JPTsT7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#getFajrTime()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIshaTime" size="87,14" id="{UMLID=_5I8Ywj7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#getIshaTime()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaghribTime" size="105,14" id="{UMLID=_5JiOoD7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#getMaghribTime()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSunrise" size="82,14" id="{UMLID=_5I8YxT7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#getSunrise()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAsrTime" size="85,14" id="{UMLID=_5JiOoz7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#setAsrTime(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDhuhrTime" size="96,14" id="{UMLID=_5JPTtD7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#setDhuhrTime(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFajrTime" size="85,14" id="{UMLID=_5JZEsz7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#setFajrTime(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIshaTime" size="87,14" id="{UMLID=_5Iynxj7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#setIshaTime(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaghribTime" size="105,14" id="{UMLID=_5JZEsD7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#setMaghribTime(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSunrise" size="82,14" id="{UMLID=_5JiOpj7LEd6BjNk1ZBVKmw,JavaID=model.processor.structs/PrayerData#setSunrise(Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="0,1638" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

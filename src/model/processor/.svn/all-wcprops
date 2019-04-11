@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/src/model/processor
+END
+QueryResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/smsprayers/!svn/ver/6/SmsPrayers/src/model/processor/QueryResults.java
+END
+RequestProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/smsprayers/!svn/ver/6/SmsPrayers/src/model/processor/RequestProcessor.java
+END
+PrayerRequestProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/smsprayers/!svn/ver/6/SmsPrayers/src/model/processor/PrayerRequestProcessor.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/smsprayers/!svn/ver/6/SmsPrayers/src/model/processor/Response.java
+END

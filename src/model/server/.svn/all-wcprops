@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/src/model/server
+END
+SmtpServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/smsprayers/!svn/ver/6/SmsPrayers/src/model/server/SmtpServer.java
+END
+ImapServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/smsprayers/!svn/ver/6/SmsPrayers/src/model/server/ImapServer.java
+END
+EmailServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/smsprayers/!svn/ver/6/SmsPrayers/src/model/server/EmailServer.java
+END

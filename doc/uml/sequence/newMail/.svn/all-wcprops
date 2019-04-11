@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail
+END
+IslamicFinderUrlBuilder.IslamicFinderUrlBuilder().usd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/IslamicFinderUrlBuilder.IslamicFinderUrlBuilder().usd
+END
+IslamicFinderParser.parseTableRows(URL).usd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/IslamicFinderParser.parseTableRows(URL).usd
+END
+IslamicFinderParser.getContents(URL).usd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/IslamicFinderParser.getContents(URL).usd
+END
+IslamicFinderUrlBuilder.getInstance().usd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/IslamicFinderUrlBuilder.getInstance().usd
+END
+PrayerRequestProcessor.PrayerRequestProcessor(MimeMessage,SmtpServer).usd
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/PrayerRequestProcessor.PrayerRequestProcessor(MimeMessage,SmtpServer).usd
+END
+PrayerRequestProcessor.run().usd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/PrayerRequestProcessor.run().usd
+END
+DataIslamicFinderFields.DataIslamicFinderFields().usd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/DataIslamicFinderFields.DataIslamicFinderFields().usd
+END
+PrayerRequestProperties.PrayerRequestProperties(Message).usd
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/PrayerRequestProperties.PrayerRequestProperties(Message).usd
+END
+TranslationIslamicFinderFields.TranslationIslamicFinderFields().usd
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/TranslationIslamicFinderFields.TranslationIslamicFinderFields().usd
+END
+ProcessorGenerator.messagesAdded(MessageCountEvent).usd
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/ProcessorGenerator.messagesAdded(MessageCountEvent).usd
+END
+IslamicFinderParser.lookForRows(String).usd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/IslamicFinderParser.lookForRows(String).usd
+END
+PrayersProcessorGenerator.generateProcessor(MimeMessage).usd
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/PrayersProcessorGenerator.generateProcessor(MimeMessage).usd
+END
+RequestProcessor.RequestProcessor(MimeMessage,SmtpServer).usd
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/newMail/RequestProcessor.RequestProcessor(MimeMessage,SmtpServer).usd
+END

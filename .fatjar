@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue May 12 12:15:28 EDT 2009
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=SmsPrayers v1.00.jar
+manifest.mergeall=true
+manifest.mainclass=controller.Controller
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

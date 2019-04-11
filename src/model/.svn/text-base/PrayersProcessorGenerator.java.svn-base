@@ -1,0 +1,68 @@
+package model;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import javax.mail.Flags;
+import javax.mail.Message;
+import javax.mail.event.MessageCountAdapter;
+import javax.mail.event.MessageCountEvent;
+import javax.mail.internet.MimeMessage;
+import model.processor.PrayerRequestProcessor;
+import model.server.SmtpServer;
+
+
+/**
+ * 
+ *
+ * @author rhaq
+ * @version 1.00 2009-04-21 Initial submission.
+ */
+public class ProcessorGenerator extends MessageCountAdapter
+{
+	/** The pool of threads that are performing requests. */
+	private ExecutorService pool;
+
+	/** */
+	private SmtpServer server;
+
+	/** */
+	public static final String EXPECTED_BODY_TYPE = "text/plain";
+
+
+	/**
+	 * @throws InterruptedException 
+	 * 
+	 */
+	public ProcessorGenerator(SmtpServer server) throws InterruptedException
+	{
+		this.pool = Executors.newCachedThreadPool();
+		this.server = server;
+	}
+
+
+	public void messagesAdded(MessageCountEvent e)
+	{
+		try {
+			Message[] messages = e.getMessages();
+
+			for (Message m: messages)
+			{
+				MimeMessage copy;
+
+				if ( m.isMimeType(EXPECTED_BODY_TYPE) )
+				{
+					copy = new MimeMessage( (MimeMessage)m );
+					pool.execute( new PrayerRequestProcessor( copy, server ) );
+				}
+
+				m.setFlag(Flags.Flag.DELETED, true);
+				m.setFlag(Flags.Flag.SEEN, true);
+			}
+		}
+
+		catch (Exception ex)
+		{
+			ex.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,501 @@
+package model.processor;
+
+/**
+ * 
+ *
+ * @author rhaq
+ * @version 1.00 2009-04-24 Initial submission.
+ */
+public class IslamicFinderFields
+{
+	protected String calculationMethod;
+
+	protected String changeTime;
+
+	protected String city;
+
+	protected String country;
+
+	protected String currentDate;
+
+	protected String dayL;
+
+	protected String dayLight;
+
+	protected String dayLightSelfChange;
+
+	protected String dhuhrInterval;
+
+	protected String fajrTwilight;
+
+	protected String id;
+
+	protected String ishaInterval;
+
+	protected String ishaTwilight;
+
+	protected String juristicMethod;
+
+	protected String language;
+
+	protected String latitude;
+
+	protected String longitude;
+
+	protected String maghribInterval;
+
+	protected String prayerCustomize;
+
+	protected String requestedDate;
+
+	protected String state;
+
+	protected String timeZone;
+
+	protected String zipCode;
+
+	public static final String BLANK = "";
+
+
+	public IslamicFinderFields()
+	{
+		this.zipCode = BLANK;
+		this.timeZone = BLANK;
+		this.state = BLANK;
+		this.requestedDate = BLANK;
+		this.prayerCustomize = BLANK;
+		this.maghribInterval = BLANK;
+		this.longitude = BLANK;
+		this.calculationMethod = BLANK;
+		this.changeTime = BLANK;
+		this.city = BLANK;
+		this.country = BLANK;
+		this.currentDate = BLANK;
+		this.dayL = BLANK;
+		this.dayLight = BLANK;
+		this.dayLightSelfChange = BLANK;
+		this.dhuhrInterval = BLANK;
+		this.fajrTwilight = BLANK;
+		this.id = BLANK;
+		this.ishaInterval = BLANK;
+		this.ishaTwilight = BLANK;
+		this.juristicMethod = BLANK;
+		this.language = BLANK;
+		this.latitude = BLANK;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the calculationMethod.
+	 */
+	public String getCalculationMethod()
+	{
+		return calculationMethod;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the changeTime.
+	 */
+	public String getChangeTime()
+	{
+		return changeTime;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the city.
+	 */
+	public String getCity()
+	{
+		return city;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the country.
+	 */
+	public String getCountry()
+	{
+		return country;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the currentDate.
+	 */
+	public String getCurrentDate()
+	{
+		return currentDate;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the dayL.
+	 */
+	public String getDayL()
+	{
+		return dayL;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the dayLight.
+	 */
+	public String getDayLight()
+	{
+		return dayLight;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the dayLightSelfChange.
+	 */
+	public String getDayLightSelfChange()
+	{
+		return dayLightSelfChange;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the dhuhrInterval.
+	 */
+	public String getDhuhrInterval()
+	{
+		return dhuhrInterval;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the fajrTwilight.
+	 */
+	public String getFajrTwilight()
+	{
+		return fajrTwilight;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the id.
+	 */
+	public String getId()
+	{
+		return id;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the ishaInterval.
+	 */
+	public String getIshaInterval()
+	{
+		return ishaInterval;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the ishaTwilight.
+	 */
+	public String getIshaTwilight()
+	{
+		return ishaTwilight;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the juristicMethod.
+	 */
+	public String getJuristicMethod()
+	{
+		return juristicMethod;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the language.
+	 */
+	public String getLanguage()
+	{
+		return language;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the latitude.
+	 */
+	public String getLatitude()
+	{
+		return latitude;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the longitude.
+	 */
+	public String getLongitude()
+	{
+		return longitude;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the maghribInterval.
+	 */
+	public String getMaghribInterval()
+	{
+		return maghribInterval;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the prayerCustomize.
+	 */
+	public String getPrayerCustomize()
+	{
+		return prayerCustomize;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the requestedDate.
+	 */
+	public String getRequestedDate()
+	{
+		return requestedDate;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the state.
+	 */
+	public String getState()
+	{
+		return state;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the timeZone.
+	 */
+	public String getTimeZone()
+	{
+		return timeZone;
+	}
+
+	/**
+	 * Retrieves the 
+	 * @return the zipCode.
+	 */
+	public String getZipCode()
+	{
+		return zipCode;
+	}
+
+	/**
+	 * Sets the calculationMethod to the specified value.
+	 * @param calculationMethod The calculationMethod to set.
+	 */
+	public void setCalculationMethod(String calculationMethod)
+	{
+		this.calculationMethod = calculationMethod;
+	}
+
+	/**
+	 * Sets the changeTime to the specified value.
+	 * @param changeTime The changeTime to set.
+	 */
+	public void setChangeTime(String changeTime)
+	{
+		this.changeTime = changeTime;
+	}
+
+	/**
+	 * Sets the city to the specified value.
+	 * @param city The city to set.
+	 */
+	public void setCity(String city)
+	{
+		this.city = city;
+	}
+
+	/**
+	 * Sets the country to the specified value.
+	 * @param country The country to set.
+	 */
+	public void setCountry(String country)
+	{
+		this.country = country;
+	}
+
+	/**
+	 * Sets the currentDate to the specified value.
+	 * @param currentDate The currentDate to set.
+	 */
+	public void setCurrentDate(String currentDate)
+	{
+		this.currentDate = currentDate;
+	}
+
+	/**
+	 * Sets the dayL to the specified value.
+	 * @param dayL The dayL to set.
+	 */
+	public void setDayL(String dayL)
+	{
+		this.dayL = dayL;
+	}
+
+	/**
+	 * Sets the dayLight to the specified value.
+	 * @param dayLight The dayLight to set.
+	 */
+	public void setDayLight(String dayLight)
+	{
+		this.dayLight = dayLight;
+	}
+
+	/**
+	 * Sets the dayLightSelfChange to the specified value.
+	 * @param dayLightSelfChange The dayLightSelfChange to set.
+	 */
+	public void setDayLightSelfChange(String dayLightSelfChange)
+	{
+		this.dayLightSelfChange = dayLightSelfChange;
+	}
+
+	/**
+	 * Sets the dhuhrInterval to the specified value.
+	 * @param dhuhrInterval The dhuhrInterval to set.
+	 */
+	public void setDhuhrInterval(String dhuhrInterval)
+	{
+		this.dhuhrInterval = dhuhrInterval;
+	}
+
+	/**
+	 * Sets the fajrTwilight to the specified value.
+	 * @param fajrTwilight The fajrTwilight to set.
+	 */
+	public void setFajrTwilight(String fajrTwilight)
+	{
+		this.fajrTwilight = fajrTwilight;
+	}
+
+	/**
+	 * Sets the id to the specified value.
+	 * @param id The id to set.
+	 */
+	public void setId(String id)
+	{
+		this.id = id;
+	}
+
+	/**
+	 * Sets the ishaInterval to the specified value.
+	 * @param ishaInterval The ishaInterval to set.
+	 */
+	public void setIshaInterval(String ishaInterval)
+	{
+		this.ishaInterval = ishaInterval;
+	}
+
+	/**
+	 * Sets the ishaTwilight to the specified value.
+	 * @param ishaTwilight The ishaTwilight to set.
+	 */
+	public void setIshaTwilight(String ishaTwilight)
+	{
+		this.ishaTwilight = ishaTwilight;
+	}
+
+	/**
+	 * Sets the juristicMethod to the specified value.
+	 * @param juristicMethod The juristicMethod to set.
+	 */
+	public void setJuristicMethod(String juristicMethod)
+	{
+		this.juristicMethod = juristicMethod;
+	}
+
+	/**
+	 * Sets the language to the specified value.
+	 * @param language The language to set.
+	 */
+	public void setLanguage(String language)
+	{
+		this.language = language;
+	}
+
+	/**
+	 * Sets the latitude to the specified value.
+	 * @param latitude The latitude to set.
+	 */
+	public void setLatitude(String latitude)
+	{
+		this.latitude = latitude;
+	}
+
+	/**
+	 * Sets the longitude to the specified value.
+	 * @param longitude The longitude to set.
+	 */
+	public void setLongitude(String longitude)
+	{
+		this.longitude = longitude;
+	}
+
+	/**
+	 * Sets the maghribInterval to the specified value.
+	 * @param maghribInterval The maghribInterval to set.
+	 */
+	public void setMaghribInterval(String maghribInterval)
+	{
+		this.maghribInterval = maghribInterval;
+	}
+
+	/**
+	 * Sets the prayerCustomize to the specified value.
+	 * @param prayerCustomize The prayerCustomize to set.
+	 */
+	public void setPrayerCustomize(String prayerCustomize)
+	{
+		this.prayerCustomize = prayerCustomize;
+	}
+
+	/**
+	 * Sets the requestedDate to the specified value.
+	 * @param requestedDate The requestedDate to set.
+	 */
+	public void setRequestedDate(String requestedDate)
+	{
+		this.requestedDate = requestedDate;
+	}
+
+	/**
+	 * Sets the state to the specified value.
+	 * @param state The state to set.
+	 */
+	public void setState(String state)
+	{
+		this.state = state;
+	}
+
+	/**
+	 * Sets the timeZone to the specified value.
+	 * @param timeZone The timeZone to set.
+	 */
+	public void setTimeZone(String timeZone)
+	{
+		this.timeZone = timeZone;
+	}
+
+	/**
+	 * Sets the zipCode to the specified value.
+	 * @param zipCode The zipCode to set.
+	 */
+	public void setZipCode(String zipCode)
+	{
+		this.zipCode = zipCode;
+	}
+
+}

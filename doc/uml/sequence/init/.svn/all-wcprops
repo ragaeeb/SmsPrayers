@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init
+END
+ProcessorGenerator.ProcessorGenerator(SmtpServer).usd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/ProcessorGenerator.ProcessorGenerator(SmtpServer).usd
+END
+SmtpServer.SmtpServer(ConnectionInformation).usd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/SmtpServer.SmtpServer(ConnectionInformation).usd
+END
+ImapServer.ImapServer(String,String,String,MessageCountAdapter).usd
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/ImapServer.ImapServer(String,String,String,MessageCountAdapter).usd
+END
+EmailServer.run().usd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/EmailServer.run().usd
+END
+EmailServer.EmailServer(ConnectionInformation).usd
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/EmailServer.EmailServer(ConnectionInformation).usd
+END
+PrayersProcessorGenerator.PrayersProcessorGenerator(SmtpServer).usd
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/PrayersProcessorGenerator.PrayersProcessorGenerator(SmtpServer).usd
+END
+Controller.main(String[]).usd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/Controller.main(String%5B%5D).usd
+END
+ImapServer.openAndMonitor(MessageCountAdapter).usd
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/ImapServer.openAndMonitor(MessageCountAdapter).usd
+END
+StartupServlet.startJ2SEApp().usd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/StartupServlet.startJ2SEApp().usd
+END
+Controller.Controller(ConnectionInformation).usd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/Controller.Controller(ConnectionInformation).usd
+END
+SmtpServer.connect().usd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/SmtpServer.connect().usd
+END
+ImapServer.monitorInbox().usd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/smsprayers/!svn/ver/4/SmsPrayers/doc/uml/sequence/init/ImapServer.monitorInbox().usd
+END
